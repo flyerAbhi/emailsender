@@ -1,0 +1,145 @@
+﻿.conatainer {
+    border: 1px solid grey;
+    padding: 16px;
+}
+.float-btn {
+    border: 3px solid #fff;
+    padding: 20px;
+}
+
+.float-child {
+    width: 40%;
+    float: left;
+    padding: 20px;
+    
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    width: 100%;
+}
+
+form {
+    border: 3px solid #f1f1f1;
+}
+
+input[type=text], input[type=password] {
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    width: 56px;
+    height: 46px;
+}
+
+img.avatar {
+    width: 0.6cm;
+    border-radius: 50%;
+    height: 0.6cm;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+
+    .cancelbtn {
+        width: 50%;
+    }
+}
+
+.nav-item nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    padding: 20px;
+}
+
+    nav a {
+        text-decoration: none;
+        font-size: 24px;
+        color: #000000;
+        margin-left: 15px;
+    }
+
+        nav a:hover {
+            color: crimson;
+            transition: 0.5s;
+        }
+
+.login-container {
+    display: flex;
+    justify-content: right;
+    margin-top: 50px;
+    height: 79%;
+    width: 96%;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    width: 28%;
+    text-align: center;
+    height: 60%;
+}
+
+    .login-form input {
+        margin-top: 10px;
+        padding: 12px 12px;
+        font-size: 24px;
+    }
+
+.login-form input[type="submit"]
+{
+    background-color: #08f1a0;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+ }
+.register-form {
+    display: flex;
+    flex-direction: column;
+    width: 28%;
+    text-align: center;
+    height: 60%;
+}
+.register-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    height: 79%;
+    width: 96%;
+}
